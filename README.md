@@ -5,9 +5,10 @@
 - Database
 - Machine Learning
 - Dashboard
+- Github
 
 ## Role Descriptions/Explanations
 - Triangle/Machine Learning
 - Circle/Database
-- X/Technologies
+- X/Technologies/Dashboard
 - Square/Github
