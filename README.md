@@ -11,4 +11,4 @@
 - Triangle/Machine Learning
 - Circle/Database
 - X/Technologies/Dashboard
-- Square/Github
+- Square/Github: This role is responsible for adding teammates to the Github Repo, managing merges, keeping the Main branch clean, and navigating any code conflicts that arise.
