@@ -6,7 +6,8 @@ Cleaning and analysing the data will be done using Pandas through Python in Jupy
 Our database will be stored and managed in SQL using Postgres. 
 
 ## Machine Learning
-SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is ___. Extra ML verbiage here.
+Using the SciKitLearn Python library we will develop, test, and train our model. 
 
 ## Dashboard
-In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. It will be hosted on ___.
+We will use Flask to deploy our model through an interactive dashboard designed using Javascript D3 for a combination of HTML, Canvas, and SVG.
+Heroku will be used for hosting. 
