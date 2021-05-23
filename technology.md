@@ -1,6 +1,6 @@
 # Technologies Used
 ## Data Cleaning and Analysis
-Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
+Cleaning and analysing the data will be done using Pandas through Python in Jupyter Notebook. 
 
 ## Database Storage
 Mongo is the database we intend to use, and we will integrate Flask to display the data.
