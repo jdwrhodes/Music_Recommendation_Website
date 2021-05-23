@@ -3,7 +3,7 @@
 Cleaning and analysing the data will be done using Pandas through Python in Jupyter Notebook. 
 
 ## Database Storage
-Mongo is the database we intend to use, and we will integrate Flask to display the data.
+Our database will be stored and managed in SQL using Postgres. 
 
 ## Machine Learning
 SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is ___. Extra ML verbiage here.
