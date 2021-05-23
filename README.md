@@ -1,4 +1,5 @@
 # Project Overview
+Our project entails creating a Msuic Recommendation website using Machine Learning to analyze song and artist characteristics and make recommendations to users for additional songs.
 
 ## Communication Protocols
 - Primary Communication Medium: Slack
