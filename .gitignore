@@ -6,6 +6,18 @@ __pycache__/
 # C extensions
 *.so
 
+# Config
+config.py
+
+# Source data to ignore
+source_data
+artists.csv
+data_by_artist.csv
+data.csv
+data_by_genres.csv
+data_by_year.csv
+tracks.csv
+
 # Distribution / packaging
 .Python
 build/
