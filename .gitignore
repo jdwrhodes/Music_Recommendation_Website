@@ -11,12 +11,12 @@ config.py
 
 # Source data to ignore
 source_data
-artists.csv
-data_by_artist.csv
-data.csv
-data_by_genres.csv
-data_by_year.csv
-tracks.csv
+artist.csv
+artist_data.csv
+overall_data.csv
+genre_data.csv
+year_data.csv
+track_data.csv
 
 # Distribution / packaging
 .Python
