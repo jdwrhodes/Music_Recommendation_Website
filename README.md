@@ -22,12 +22,12 @@ Our project entails creating a music recommendation website using machine learni
 #### Data Cleaning and Analysis
 Cleaning and analysing the data will be done using Pandas through Python in Jupyter Notebook. 
 
-![Data Cleaning and Analysis](Resources/pca_analysis_head.png)
+![Data Cleaning and Analysis](resources/pca_analysis_head.png)
 
 #### Database Storage
 Our database will be stored and managed in SQL using Postgres. 
 
-![Database Diagram](Resources/updated_quickDB.png)
+![Database Diagram](resources/updated_quickDB.png)
 
 #### Machine Learning
 Using the SciKitLearn Python library we will develop, test, and train our model. 
@@ -39,4 +39,4 @@ Heroku will be used for hosting.
 ### Data Source
 Our primary data source is the Kaggle dataset titled Spotify Dataset 1922-2021, ~600k Tracks which contains information and audio feature measurements fon tracks and artists obtained using the Spotify API.
 
-![Tracks Data Head](Resources/tracks_datahead.png)
+![Tracks Data Head](resources/tracks_datahead.png)
