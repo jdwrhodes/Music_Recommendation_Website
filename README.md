@@ -32,6 +32,9 @@ Our database will be stored and managed in SQL using Postgres.
 #### Machine Learning
 Using the SciKitLearn Python library we will develop, test, and train our model. 
 
+##### Description of How Data Will be Split in Testing
+Need to create our output and based on our magnitude of the song out put songs with a similar magnitude. We as a team will test to see if we like or dislike. We will similarly run that testing with random song selection to see if we like or dislike the song that was selected. Here we will compare the percentage of times we “liked” or “disliked” a song.
+
 #### Dashboard
 We will investigate the potential for using Tableau to develop our interactive database or else use Flask to deploy our model through an interactive dashboard designed using Javascript D3 for a combination of HTML, Canvas, and SVG.
 Heroku will be used for hosting. 
