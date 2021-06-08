@@ -31,9 +31,10 @@ Our database will be stored and managed in SQL using Postgres.
 
 #### Machine Learning
 Using the SciKitLearn Python library we will develop, test, and train our model. 
-
 ##### Description of How Data Will be Split in Testing
 Need to create our output and based on our magnitude of the song out put songs with a similar magnitude. We as a team will test to see if we like or dislike. We will similarly run that testing with random song selection to see if we like or dislike the song that was selected. Here we will compare the percentage of times we “liked” or “disliked” a song.
+##### Explanation of model choice
+We will  be using K- Nearest Neighbors. We want to pull songs of a similar magnitude based on the quantifiable characteristics  given by spotify. The idea is the magnitude that we give an individual song will place similar songs next to each other helping us to find songs that the user will like. The downfall of this is that a song could have vastly different traits but could end up having similar magnitudes.
 
 #### Dashboard
 We will investigate the potential for using Tableau to develop our interactive database or else use Flask to deploy our model through an interactive dashboard designed using Javascript D3 for a combination of HTML, Canvas, and SVG.
