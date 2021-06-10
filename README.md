@@ -1,5 +1,5 @@
 # Project Overview
-Our project entails creating a music recommendation website. We are using machine learning to analyze song characteristics and make song recommendations to users.
+Our project entails creating a music recommendation website. We are using machine learning to analyze song characteristics and recommend 3-5 songs based on the distance from the original input song.
 
 Presentation Slides: https://docs.google.com/presentation/d/1fenD0qLnxMxOIn_bhs8PUaC3YdDqmv0f-JdH6nSpv7U/edit?usp=sharing
 Storyboard Slides: https://docs.google.com/presentation/d/1UO--Mb5cc4-dj-lo2UrzN9U1MlOCjZQdRbD1l1JphEc/edit?usp=sharing
@@ -7,11 +7,6 @@ Storyboard Slides: https://docs.google.com/presentation/d/1UO--Mb5cc4-dj-lo2UrzN
 ## Hypothesis and Goals
 ### Hypothesis
 - Can machine learning predict what songs a user will enjoy based on the audio features of songs they like?
-### Additional Questions Posed
-- Can we predict an artist's most popular song based on audio elements?
-- Can we predict the most popular song off an album based on audio elements?
-- Can we use audio elements to predict a song a listener would like?
-- Can we use audio elements of an artist to predict another artist a listener would like?
 
 ## Project Description
 ### Technologies Used
@@ -41,3 +36,10 @@ We are using Tableau build visualizations and Flask to deploy our model through 
 Our primary data source is the Kaggle dataset titled Spotify Dataset 1922-2021, ~600k Tracks which contains information and audio feature measurements fon tracks and artists obtained using the Spotify API.
 
 ![Tracks Data Head](resources/tracks_datahead.png)
+
+
+### Questions For Further Study
+- Can we predict an artist's most popular song based on audio elements?
+- Can we predict the most popular song off an album based on audio elements?
+- Can we use audio elements to predict a song a listener would like?
+- Can we use audio elements of an artist to predict another artist a listener would like?
