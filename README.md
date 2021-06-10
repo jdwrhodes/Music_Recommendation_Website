@@ -1,7 +1,7 @@
 # Project Overview
 Our project entails creating a music recommendation website using machine learning to analyze song and artist characteristics and make recommendations to users for additional songs.
 
-### Presentation Slides: https://docs.google.com/presentation/d/1fenD0qLnxMxOIn_bhs8PUaC3YdDqmv0f-JdH6nSpv7U/edit?usp=sharing
+Presentation Slides: https://docs.google.com/presentation/d/1fenD0qLnxMxOIn_bhs8PUaC3YdDqmv0f-JdH6nSpv7U/edit?usp=sharing
 
 ## Hypothesis and Goals
 ### Hypothesis
