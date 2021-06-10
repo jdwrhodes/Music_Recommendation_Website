@@ -13,13 +13,6 @@ Storyboard Slides: https://docs.google.com/presentation/d/1UO--Mb5cc4-dj-lo2UrzN
 - Can we use audio elements to predict a song a listener would like?
 - Can we use audio elements of an artist to predict another artist a listener would like?
 
-## Communication Protocols
-- Primary Communication Medium: Slack
-- Project Management: Google Drive, Jira
-- Meeting Times: Primarily Monday/Wednesday class times with possible Zoom calls if needed.
-- Procedure if someone misses a class or zoom meeting: Pass along notes from meetings to keep people up to speed.
-- How will we keep teammates apprised of progress/issues/notes: Utilize Jira to track projects and store notes and vital information in Google Docs to keep team members apprised of progress.
-
 ## Project Description
 ### Technologies Used
 #### Data Cleaning and Analysis
