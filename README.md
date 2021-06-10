@@ -28,7 +28,7 @@ Using the SciKitLearn Python library we will develop, test, and train our model.
 We are using the distance formula to determine the magnitude of the features of the input song. The output(s) will be songs with the least distance/difference from the input song. As a control, we will run that testing with random song selection to see if the recommendations of the model are "liked" by users more significantly. Our team will test both recommendation models. 
 
 ##### Explanation of Model Choice
-We will  be using K- Nearest Neighbors. We want to pull songs of a similar magnitude based on the quantifiable characteristics  given by spotify. The idea is the magnitude that we give an individual song will place similar songs next to each other helping us to find songs that the user will like. The downfall of this is that a song could have vastly different traits but could end up having similar magnitudes.
+We will  be using K- Nearest Neighbors. The idea is the magnitude that we give an individual song will place similar songs next to each other in order to find songs that the user will like. The downfall of this is that a song could have vastly different traits but could end up having similar magnitudes.
 
 #### Dashboard
 We are using Tableau build visualizations and Flask to deploy our model through an interactive dashboard using Python and HTML. Heroku will be used for hosting. 
