@@ -14,6 +14,10 @@ def home():
 @app.route("/how_to")
 def how_to():
     return render_template('how_to.html')
+#%%
+@app.route("/about")
+def about():
+    return render_template('about.html')
 
 #%%
 # Route to a webpage with a form
