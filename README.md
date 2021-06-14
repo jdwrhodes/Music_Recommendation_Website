@@ -1,5 +1,5 @@
 # Project Overview
-Hi! Welcome to our project! Our project entails creating a music recommendation website. We are using machine learning to analyze song characteristics and recommend 3-5 songs based on the distance from the original input song.
+Hi! Welcome! Our project entails creating a music recommendation website. We are using machine learning to analyze song characteristics and recommend 3-5 songs based on the distance from the original input song.
 
 Presentation Slides: https://docs.google.com/presentation/d/1fenD0qLnxMxOIn_bhs8PUaC3YdDqmv0f-JdH6nSpv7U/edit?usp=sharing
 Storyboard Slides: https://docs.google.com/presentation/d/1UO--Mb5cc4-dj-lo2UrzN9U1MlOCjZQdRbD1l1JphEc/edit?usp=sharing
