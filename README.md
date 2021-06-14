@@ -29,7 +29,7 @@ We are using the distance formula to determine the magnitude of the features of 
 We will  be using K- Nearest Neighbors. The idea is the magnitude that we give an individual song will place similar songs next to each other in order to find songs that the user will like. The downfall of this is that a song could have vastly different traits but could end up having similar magnitudes.
 
 #### Dashboard
-We are using Tableau build visualizations and Flask to deploy our model through an interactive dashboard using Python and HTML. Heroku will be used for hosting. 
+We are using Tableau build visualizations and Flask to deploy our model through an interactive dashboard using Python and HTML. Heroku will be used for app hosting. 
 
 ### Data Source
 Our primary data source is the Kaggle dataset titled Spotify Dataset 1922-2021, ~600k Tracks which contains information and audio feature measurements fon tracks and artists obtained using the Spotify API.
