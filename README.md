@@ -19,8 +19,6 @@ Cleaning and analysing the data will be done using Pandas through Python in Jupy
 Our database will be stored and managed in SQL using Postgres. 
 
 ![Database Diagram](resources/updated_quickDB.png)
-<img src="resources/updated_quickDB.png)" alt="quickDB" width="200"/>
-
 
 #### Machine Learning
 Using the SciKitLearn Python library we will develop, test, and train our model. 
