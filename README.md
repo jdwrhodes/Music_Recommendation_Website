@@ -36,7 +36,6 @@ Our primary data source is the Kaggle dataset titled Spotify Dataset 1922-2021, 
 
 ![Tracks Data Head](resources/tracks_datahead.png)
 
-
 ### Questions For Further Study
 - Can we predict an artist's most popular song based on audio elements?
 - Can we predict the most popular song off an album based on audio elements?
