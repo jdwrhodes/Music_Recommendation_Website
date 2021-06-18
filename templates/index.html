@@ -38,14 +38,16 @@
     <div class="container2">
       <div class="jumbotron text-center">
         <h1>FindMe FM</h1>
-        <form action="/action_page.php">
+        <form method="POST">
             <label for="fname">Your Favorite Song:</label> <!-- user song input -->
             <input type="text" id="fname" name="fname"><br><br>
-            <button type="button" class="btn btn-primary btn-lg">Let's Go</button> <!-- button-->
+            <button type="submit" class="btn btn-primary btn-lg">Let's Go</button> <!-- button-->
 
         </form>
         <p>Click to find your your new favorite song!</p>
-
+        <ul class="list-group">
+            <li class="list-group-item" id="data" name="data">{{data}}</li>
+        </ul>
       </div>
     </div>
 

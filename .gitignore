@@ -12,7 +12,7 @@ venv
 *.so
 
 # Config
-config.py
+#config.py
 
 # Source data to ignore
 source_data
