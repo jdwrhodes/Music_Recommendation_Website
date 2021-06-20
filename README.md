@@ -21,7 +21,7 @@ Our database will be stored and managed in SQL using Postgres.
 
 ![Database Diagram](resources/updated_quickDB.png)
 
-#### Machine Learning
+### Machine Learning
 Using the SciKitLearn Python library we will develop, test, and train our model. 
 ##### Description of How Data Will Be Split in Testing
 We are using the magnitude formula to determine the magnitude of the features of the input song. The output(s) will be songs with the least distance/difference from the input song. As a control, we will run that testing with random song selection to see if the recommendations of the model are "liked" by users more significantly. Our team will test both recommendation models. 
@@ -32,7 +32,7 @@ We chose to use the computed magnitude of each song's audio features which were 
 As we are calculating magnitude from the features returned from the PCA analysis, no training was necessary. However, what will be changed is tweaking each feature's coefficients when calculating the magnitude for each song.
 
 
-#### Dashboard
+### Dashboard
 We are using Tableau build visualizations and Flask to deploy our model through an interactive dashboard using Python and HTML. Heroku will be used for app hosting. 
 
 ### Data Source
