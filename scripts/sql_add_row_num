@@ -1,1 +1,0 @@
-alter table magnitude_data_v2 add row_num serial;
