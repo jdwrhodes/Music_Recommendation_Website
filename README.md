@@ -23,10 +23,13 @@ Our database will be stored and managed in SQL using Postgres.
 #### Machine Learning
 Using the SciKitLearn Python library we will develop, test, and train our model. 
 ##### Description of How Data Will Be Split in Testing
-We are using the distance formula to determine the magnitude of the features of the input song. The output(s) will be songs with the least distance/difference from the input song. As a control, we will run that testing with random song selection to see if the recommendations of the model are "liked" by users more significantly. Our team will test both recommendation models. 
+We are using the magnitude formula to determine the magnitude of the features of the input song. The output(s) will be songs with the least distance/difference from the input song. As a control, we will run that testing with random song selection to see if the recommendations of the model are "liked" by users more significantly. Our team will test both recommendation models. 
 
 ##### Explanation of Model Choice
-We will  be using K- Nearest Neighbors. The idea is the magnitude that we give an individual song will place similar songs next to each other in order to find songs that the user will like. The downfall of this is that a song could have vastly different traits but could end up having similar magnitudes.
+We chose to use the computed magnitude of each song's audio features which were processed with a PCA analysis. Other features like a song's length, date of release, and other non-audio feature's weren't considered. The idea is that the magnitude will place individual songs next to each other when sorted by their magnitude value. This will help to find songs that the user will like. The downfall of this is that a song could have vastly different traits but could end up having similar magnitudes.
+
+As we are calculating magnitude from the features returned from the PCA analysis, no training was necessary. However, what will be changed is tweaking each feature's coefficients when calculating the magnitude for each song.
+
 
 #### Dashboard
 We are using Tableau build visualizations and Flask to deploy our model through an interactive dashboard using Python and HTML. Heroku will be used for app hosting. 
