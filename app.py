@@ -24,9 +24,9 @@ def home_post():
     text = request.form['fname']
     
     try:
-        db_query = pd.read_sql_query(f"SELECT * FROM magnitude_data_v2 WHERE name = '{text}'", con=engine)
+        db_query = pd.read_sql_query(f"SELECT * FROM magnitude_data_v3 WHERE name = '{text}'", con=engine)
         
-        db_result = pd.read_sql_query(f"select name, artists, row_num from magnitude_data_v2 where row_num between {db_query['row_num'][0] - 3} and {db_query['row_num'][0] + 3}", con=engine)
+        db_result = pd.read_sql_query(f"select name, artists, row_num from magnitude_data_v3 where row_num between {db_query['row_num'][0] - 3} and {db_query['row_num'][0] + 3}", con=engine)
 
         result = f"I think you might like '{db_result['name'][0]}' by '{db_result['artists'][0]}'"
 
