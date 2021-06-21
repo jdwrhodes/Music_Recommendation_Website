@@ -37,7 +37,7 @@ As we are calculating magnitude from the features returned from the PCA analysis
 
 
 ### Dashboard
-We are using Tableau build visualizations and Flask to deploy our model through an interactive dashboard using Python and HTML. Heroku will be used for app hosting. 
+We are using Tableau to build visualizations and Flask to deploy our model through an interactive dashboard using Python and HTML. Heroku will be used for app hosting. 
 
 ### Data Source
 Our primary data source is the Kaggle dataset titled Spotify Dataset 1922-2021, ~600k Tracks which contains information and audio feature measurements fon tracks and artists obtained using the Spotify API.
