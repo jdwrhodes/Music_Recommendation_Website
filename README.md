@@ -33,7 +33,7 @@ We are using the magnitude formula to determine the magnitude of the features of
 ##### Explanation of Model Choice
 We chose to use the computed magnitude of each song's audio features which were processed with a PCA analysis. Other features like a song's length, date of release, and other non-audio feature's weren't considered. The idea is that the magnitude will place individual songs next to each other when sorted by their magnitude value. This will help to find songs that the user will like. The downfall of this is that a song could have vastly different traits but could end up having similar magnitudes.
 
-As we are calculating magnitude from the features returned from the PCA analysis, no training was necessary. However, what will be changed is tweaking each feature's coefficients when calculating the magnitude for each song.
+As we are calculating magnitude from the features returned from the PCA analysis, no training was necessary. However, what will be changed is tweaking each feature's coefficients when calculating the magnitude for each song. We're using the distance formula to calculate the magnitude of each relevant audio feature.
 
 
 ### Dashboard
